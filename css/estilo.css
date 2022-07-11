@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /* background-image: url(../img/fundo.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+    background-color: #ffffff;
+    
+
+}
+
+
+/* Barra de navegação */
+
+/*Header*/
+
+header {
+    margin-top: 25px;
+}
+
+
+/* CSS GRID */
+
+.main-index {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: block;
+}
+
+.lista-animes {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-column-gap: 7px;
+    grid-row-gap: 25px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.anime-episodio {
+    font-size: 13px;
+    overflow: hidden;
+    height: 142px;
+    float: left;
+    border-radius: 4px;
+}
+
+.anime-episodio h3 {
+    margin: 0;
+    font-size: 13.5px;
+    background: 0 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.anime-thumb {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    font-size: 0;
+    height: 100px;
+    border-radius: 4px;
+}
+
+.clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 4px;
+}
+
+.clip img {
+    width: 100%;
+}
+
+
+.clip .timer {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    margin-top: 0;
+    margin-right: 0;
+    padding: 5px;
+    font-size: 13px;
+    color: #fafafa!important;
+    font-weight: 400;
+    line-height: 16px;
+    opacity: .95;
+    background: rgba(28,28,28,.9);
+    display: -moz-inline-stack;
+    zoom: 1;
+    display: block;
+    border-radius: 4px;
+}
+
+/* principal */
+
+
+p {
+    color: #ffffff, 0, 0;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: black;
+}
+
+
+
+
+
+/* lado direito da página */
+
+.index-right-size {
+    float: right;
+    width: 28%;
+    margin-left: 10px;
+}
+
+.sidebar-holder {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.sidebar-holder h2 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #ddd;
+    letter-spacing: -.2px;
+    margin-bottom: 5px;
+    font-size: 1.28em;
+    font-weight: 500;
+}
+
+.content {
+    position: relative;
+}
+
+.img-top {
+    height: 160px;
+    position: relative;
+}
+
+.item-top .thumb {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+
+.item-top .thumb:before {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+}
+
+.item-top .detail {
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+    left: -3px;
+    width: auto;
+    color: #ffffff;
+    padding: 2px 5px;
+}
+
+.item-sidebar {
+    overflow: hidden;
+    padding: 8px;
+}
+
+.item-sidebar .rank {
+    float: left;
+    margin-right: 15px;
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 3px;
+}
+
+.item-top .detail .rank {
+    float: left;
+    margin-top: 2px;
+    font-style: normal;
+    background: #f8f8f8;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1rem;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.item-top .detail .info {
+    margin-left: 45px;
+}
+
+.item-top .detail .info p {
+    font-size: .9rem;
+    margin: 0;
+    padding: 0;
+    color: #f8f8f8;
+}
+
+.item-sidebar .info {
+    margin-left: 115px;
+}
+
+.item-sidebar .info p {
+    font-size: 12px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.item-sidebar .info p span {
+    margin-right: 5px;
+}
+
+.item-sidebar .thumb {
+    float: left;
+    width: 60px;
+    height: 85px;
+    margin-right: 5px;
+}
+
+.item-top .thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: #bbadad;
+    text-decoration: none;
+}
+
+a.toppers {
+    color: #ffffff;
+}
+
+.item-sidebar .thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+.divisao {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 30px;
+    clear: both;
+}
+
+/* RODAPÉ */
+
+
+footer {
+    margin-top: 60px;
+}

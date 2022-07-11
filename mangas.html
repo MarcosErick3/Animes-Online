@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/mangas.css">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+
+    <title>Animes Online </title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-black container-fluid">
+    <div class="container-fluid">
+      <button class="navbar-toggler bg-white" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarCenteredExample"
+        aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html" style="color: white;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mangas.html" style="color: white;">Mangás</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="animes.html" style="color: white;">Animes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html" style="color: white;">Contato</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/slide.png" alt="Primeiro Slide" height="338px">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="img/slide1.jpg" alt="Terceiro Slide" height="338px">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/slide2.png" alt="Terceiro Slide" height="338px">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/slide3.png" alt="Quarto Slide" height="338px">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title" id="exampleModalLabel">Sobre o Mangá </p>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Indisponivel
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-black" data-bs-dismiss="modal">Sair</button>
+        <button type="button" class="btn btn-balck">Pronto</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <main class="container">
+    <div class="row" id="row1">
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/boruto-naruto-next-generations-episodios.jpg" alt="">
+          <div class=" card-body">
+            <p class="card-title">Boruto </p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/One-Piece.jpg" alt="">
+          <div class="card-body">
+            <p class="card-title">One Piece</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/naruto-shippuuden-episodios.jpg" alt="">
+          <div class=" card-body">
+            <p class="card-title">Naruto Shippuden</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/Kawaii sake ja Nai Shikimor-san.jpg" alt="">
+          <div class=" card-body">
+            <p class="card-title">Kawwai sake ja Nai Shikimor-san</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/Dragon-ball-super.jpg" alt="">
+          <div class=" card-body">
+            <p class="card-title">Dragon ball Super</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/digimon-ghost.jpg" alt="">
+          <div class="card-body">
+            <p class="card-title">Digimon ghost</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/Black-Clover.jpg" alt="">
+          <div class="card-body">
+            <p class="card-title">Black Clover</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/naruto-classico.jpg" alt="">
+          <div class=" card-body">
+            <p class="card-title">Naruto Classico</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/Kaguya-sama wa Kokurasetai Ultra Romantic.jpg" alt="">
+          <div class=" card-body">
+            <p class="card-title">Kaguya-sama</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/bleach-episodios.jpg" alt="">
+          <div class=" card-body">
+            <p class="card-title">Bleach </p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/build-divide-code-white-episodios-online.jpg" alt="">
+          <div class=" card-body">
+            <p class="card-title">Build divide code white </p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-2 col-sm-4">
+        <div class="card bg-black text-white">
+          <img class="card-img-top" src="img/Kakkou no Iinazuke.jpg" alt="">
+          <div class="card-body">
+            <p class="card-title">Kakkou ni Iinazuke</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Leia Mais
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-center text-white ">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="index.html">AnimesOnline.com</a>
+    </div>
+  </footer>
+
+  <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

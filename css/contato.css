@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body { 
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+/* Barra de navegação */
+
+/* Header */
+
+header {
+    margin-top: 25px;
+}
+
+/* Formulario */
+
+
+form {
+  margin: 15px 15px 15px 15px;
+}
+
+label {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+#fundo-form {
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
